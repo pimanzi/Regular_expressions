@@ -8,6 +8,6 @@ Regular_expression is a repository I created while I was learning regular expres
 
  ## CHECK OUT
 
-*check out the website at* [visit my website](https://pimanzi.github.io/Regular_expressions/regular_expressions/)
+*check out the form with regular_expressions at* [visit my web-based form](https://pimanzi.github.io/Regular_expressions/regular_expressions/)
 
  
