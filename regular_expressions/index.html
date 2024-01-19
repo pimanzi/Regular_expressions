@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>regexp form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="validation.js" defer></script>
+  </head>
+  <body>
+    <h1 class="header">New User Signup</h1>
+    <input type="text" class="name" placeholder="username" name="username" />
+    <p>Username must contain only letters,digits 5 to 8 characters</p>
+
+    <input type="text" class="name" placeholder="Email" name="email" />
+    <p>Email must be a valid address, e.g. me@mydomain.com</p>
+
+    <input
+      type="password"
+      class="name"
+      placeholder="Password"
+      name="password"
+    />
+    <p>
+      Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20
+      characters
+    </p>
+
+    <input type="text" class="name" placeholder="telephone" name="telephone" />
+    <p>Telephone must be a valid Rwandan telephone number (10 digits)</p>
+  </body>
+</html>

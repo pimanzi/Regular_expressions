@@ -1,0 +1,75 @@
+body{
+    padding-top: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2) url('picture1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+.header{
+    text-decoration: underline;
+}
+.name{
+    flex: 1;
+    padding:20px 20px 20px 20px;
+    border-radius: 100px;
+    border: 2px solid ;
+    font-size: 24px;
+    width: 500px
+
+}
+input::placeholder{
+    font-size:24px;
+    text-align: center;
+    color: black;
+}
+p{
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(2, 3, 27);
+    font-size: 18px;
+    
+}
+
+@media(max-width: 640px){
+
+    .name{
+        width: 350px;   
+
+    }
+    input::placeholder{
+        font-size:20px;
+        text-align: center;
+}
+
+
+}
+.name:hover{
+    background-color: black;
+    color: white; 
+}
+input:hover::placeholder{
+    color: white;
+}
+.name:focus{
+    background-color:rgb(102, 102, 148);
+    color:black;
+}
+/* Styling for valid input */
+.valid {
+    border: 2px solid green;
+    background-color: #dff0d8; /* Light green background */
+}
+
+/* Styling for invalid input */
+.invalid {
+    border: 14px solid red;
+    background-color: #f2dede; /* Light red background */
+}
+
